@@ -21,6 +21,26 @@
     background-color: #311c0a;
 }
 
+/* special paddings margins and text */
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /* heading */
 
 header {
@@ -113,5 +133,14 @@ header {
 .hvr-sweep-to-bottom:before {
     background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/* footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
 
